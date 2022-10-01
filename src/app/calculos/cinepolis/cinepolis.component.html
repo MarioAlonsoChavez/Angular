@@ -1,6 +1,6 @@
 <html>
     <body>
-        <div>
+        <div class="container">
     <!--el ngModel es un controlador entre el html y el typescript-->
             <strong><h4>Nombre: </h4></strong><input type="text" [(ngModel)]="nombre" name="nombre"><br>
             <strong><h5>Cantidad de compradores: </h5></strong><input type="text" [(ngModel)]="comprador" name="comprador"><br>
@@ -11,7 +11,8 @@
             Cantidad Boletos: <input type="text" [(ngModel)]="boletos" name="boletos"><br>
 
             <button type="button" (click)="procesar()">Procesar</button>
-
+        </div>
+        <div class="container2">
             <h2>Comprador Principal: {{nombre}}</h2>
             <h2>Boletos Comprados: {{boletos}}</h2>
             <h2>Total: {{total}}</h2>

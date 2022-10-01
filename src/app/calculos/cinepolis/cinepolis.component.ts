@@ -69,6 +69,9 @@ export class CinepolisComponent implements OnInit {
           this.total=this.total-(this.total*0.10);
         }
       }
+      else{
+        this.error=(`Error no se puede mas de 5 compradores`);
+      }
     }
 
 
@@ -142,9 +145,9 @@ else if(this.boletos>=6 && this.boletos<=35){
   }
 }
 }
-else{
-  this.error=(`Error no se puede mas de 5 compradores`);
-}
+/*else{
+  //this.error=(`Error no se puede mas de 5 compradores`);
+}*/
         
     }
   }

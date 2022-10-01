@@ -14,10 +14,23 @@ body{
     background-size: cover;
 }
 
-div{
-    width: 100px;
+div .container{
+    /*width: 100px;*/
     color: yellow;
+    width: 800px;
+    height: 400px;
+    max-width: 500px;
+    border-radius: black;
 
+}
+div #container2{
+    color: yellow;
+    position: left;
+    
+}
+
+h2{
+    color: yellow;
 }
 strong{
     color: yellow;
