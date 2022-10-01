@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <div>
+    <!--el ngModel es un controlador entre el html y el typescript-->
+            <strong><h4>Nombre: </h4></strong><input type="text" [(ngModel)]="nombre" name="nombre"><br>
+            <strong><h5>Cantidad de compradores: </h5></strong><input type="text" [(ngModel)]="comprador" name="comprador"><br>
+            <strong><h5>¿Cuenta con tarjeta cinepolis?: </h5></strong><br>
+            <input type="radio" value="si" name="tarjeta" [(ngModel)]="tarjetaSi">Si
+            <input type="radio" value="no" name="tarjeta" [(ngModel)]="tarjetaNo">No<br>
+
+            Cantidad Boletos: <input type="text" [(ngModel)]="boletos" name="boletos"><br>
+
+            <button type="button" (click)="procesar()">Procesar</button>
+
+            <h2>Comprador Principal: {{nombre}}</h2>
+            <h2>Boletos Comprados: {{boletos}}</h2>
+            <h2>Total: {{total}}</h2>
+            <h2>{{error}}</h2>
+        </div>
+    </body>
+</html>

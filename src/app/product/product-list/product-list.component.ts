@@ -28,18 +28,18 @@ export class ProductListComponent implements OnInit {
       "createDate":"Mayo 21, 2011",
       "price": 130000,
       "rating":3.6,
-      "imageUrl": "https://th.bing.com/th/id/R.a6885a8a55f52cb595a5ba0b38cab8e8?rik=IADN5%2f39KboC3g&riu=http%3a%2f%2f2.bp.blogspot.com%2f-xN4YhzerMGA%2fUiIisd-9gHI%2fAAAAAAAAONM%2fB7ci2-WTkdE%2fs1600%2fHello%2bKitty%2bCar_4.jpg&ehk=dFeK7C19mga9R3w65goVjkccciGbMxeZXayRuS1463I%3d&risl=&pid=ImgRaw&r=0"
+      "imageUrl": "https://www.nissanvictoria.com.mx/static/agency-go-virtual/Nissan/Sentra/2023/versiones/nissan-2022-sentra_sr_platinum_bi_tono-d.jpg"
       
     },
     {
       "product1":2,
-      "productName":'Sentra',
+      "productName":'Chevrolet',
       "description":'auto familiar 4 puertas',
       'listFilter':"",
-      "createDate":"Mayo 21, 2011",
-      "price": 130000,
-      "rating":3.6,
-      "imageUrl": "https://th.bing.com/th/id/R.1b21143faffe6a17f31ad0356166a367?rik=WFA1FV4QEgGKAg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-LnKXnd4TI3g%2fUiIis0KfPpI%2fAAAAAAAAONc%2fbxAfMQ7Lhrg%2fs1600%2fHello%2bKitty%2bCar_4235.jpg&ehk=vjTGp5cob20NG7scTFEu1fytGLAFztP1kzb%2fhjgp2Mk%3d&risl=&pid=ImgRaw&r=0"
+      "createDate":"Febrero 01, 2017",
+      "price": 230000,
+      "rating":4,
+      "imageUrl": "https://www.chevrolet.com.mx/content/dam/chevrolet/na/mx/es/index/cars/2023-onix/colorizer/01-images/jellys/v2/azul-ultramar.jpg?imwidth=960"
       
     }
   ]
